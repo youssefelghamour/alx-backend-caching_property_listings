@@ -9,4 +9,4 @@ class Property(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"{self.name}: {self.value}"
+        return f"{self.title}: {self.price} at {self.location}"
